@@ -3,6 +3,10 @@
 package main;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Launcher
 {
 	public static void main(String[] args)
@@ -13,6 +17,8 @@ public class Launcher
 
 	private void run()
 	{
+		List<Integer> list = new ArrayList<Integer>();
+
 
 		int f = 0;
 		for (int i = 0; i < 150; i++)
@@ -22,6 +28,7 @@ public class Launcher
 				f = f + i;
 			}
 		}
+
 		System.out.println(f);
 
 	}
