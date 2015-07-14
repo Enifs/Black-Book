@@ -13,6 +13,16 @@ public class Launcher
 
 	private void run()
 	{
-		System.out.println("Stuff Works");
+
+		int f = 0;
+		for (int i = 0; i < 150; i++)
+		{
+			if (i<50 || i>100)
+			{
+				f = f + i;
+			}
+		}
+		System.out.println(f);
+
 	}
 }
